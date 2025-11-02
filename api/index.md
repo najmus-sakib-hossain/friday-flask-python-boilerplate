@@ -1,3 +1,6 @@
+# Python Codebase
+
+```python
 import base64
 import json
 import logging
@@ -320,3 +323,4 @@ if __name__ == "__main__":
         app.run(port=int(os.getenv("PORT", 5001)), host="0.0.0.0", debug=False)
     else:
         logger.critical("Application cannot start due to configuration errors.")
+```
